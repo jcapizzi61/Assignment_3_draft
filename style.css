@@ -1,0 +1,147 @@
+
+*{box-sizing: border-box;
+}
+body,
+html {
+	font-size: 20px;
+	font-family:'Roboto', sans-serif;'
+	
+}
+
+body{ background-color: #d5e1f4;
+}
+
+img {
+max-height: auto;
+max-width: auto;
+size: 1000px;
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+align-content: auto;
+align-items: auto;
+display: block;
+padding-bottom: auto;
+padding-top: .1px;
+
+}
+div.content{
+	padding-top: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+div.headline {
+	font-size: auto;
+	display:inline-flex;
+	font-weight: normal;
+	text-align: auto;
+	font-variant: normal;
+	font-style: bold;
+	padding-top: 10px;
+	padding-bottom: auto;
+	padding-left: auto;
+	padding-right: auto;
+	line-height: 40px;
+
+}
+div.subheadline {
+	font-size: .65em;
+	line-height: 25px;
+	text-align: auto;
+
+}
+
+div.byline {
+	font-size: .75em;
+	font-weight: normal;
+	text-align:  left;
+	font-variant: normal;
+	font-style: italic;
+	margin-top: auto;
+	margin-bottom: 0px;
+	padding-top: auto;
+	line-height: auto;
+
+}
+div.dateline {
+	font-size: .5em;
+	font-weight: normal;
+	text-align:  left;
+	font-variant: normal;
+	font-style: italic;
+	margin-top: auto;
+	margin-bottom: 0px;
+	padding-top: auto;
+	line-height: auto;
+
+}
+
+div.iframe {
+	max-width: 200x;
+	max-height: 100px;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-top: auto;
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+p.caption {
+	font-size: 0.5em;
+	line-height: 10px;
+	text-align: center;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+div.paragraph {
+	font-size: 0.90em;
+	display:block;
+	font-weight: normal;
+	text-align: auto;
+	font-variant: normal;
+	font-style: bold;
+	margin-top: auto;
+	padding-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: auto;
+
+}
+
+div.iframe {
+
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+	a.alignleft {
+		 width: 100%;
+   	     margin-left: auto;
+   	     margin-right: auto;
+         text-align: center;
+	}
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex > div {
+    flex-basis: 30%;
+}
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+
